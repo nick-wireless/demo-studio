@@ -1,19 +1,7 @@
 <template>
-  <HomeHero >
-    <template #title>
-      This is my title
-    </template>
-    <template #description>
-      This is my description
-    </template>
-    <template #headline>
-      This is my headline
-    </template>
-    <template #links>
-      <UButton color="gray" size="lg" target="_blank" to="https://nuxt.studio" variant="link">Nuxt Studio</UButton>
-    </template>
-  </HomeHero>
-
+  <ContentRenderer
+    v-if="page"
+    :value="page" />
 </template>
 
 <script setup lang="ts">
