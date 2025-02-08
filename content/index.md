@@ -26,3 +26,18 @@ variant: link
 Nuxt Studio
 :::
 ::
+
+::home-image
+![valley](/Pyrenees1.jpg)
+::
+
+::home-listing
+---
+ count: 3
+---
+#title
+Discover our latest trip
+
+#description
+Explores teh beauty, challenges, and thrill of mountain environments, offering in-depth articles on popular mountain ranges, hidden trails, and the culture surrounding these majestic landscapes
+::
